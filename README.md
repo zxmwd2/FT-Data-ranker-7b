@@ -5,5 +5,6 @@ FT-Data-ranker-7b赛道第四名方案
 # 中英文比例的调整
 经过一系列试验，最终发现英文token占总token数的80%效果最好，各比例的实验结果如下图所示
 ![image](https://github.com/zxmwd2/FT-Data-ranker-7b/assets/74773596/9a5b5198-a298-4cef-a316-9b95012f5369)
-# 经过探索发现，限制超短output长度的文本，对提升摘要任务得分效果明显。分别分析中英文数据Output长度的分布后，做了不同分位点的截断实验，具体的实验结果如下
+# 对output长度的限度
+经过探索发现，限制超短output长度的文本，对提升摘要任务得分效果明显。分别分析中英文数据Output长度的分布后，做了不同分位点的截断实验，具体的实验结果如下
 ![image](https://github.com/zxmwd2/FT-Data-ranker-7b/assets/74773596/a1edcd10-4087-49d9-be00-ad9e2ec58001)
